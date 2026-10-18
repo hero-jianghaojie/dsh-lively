@@ -16,8 +16,13 @@ settings page to pick the look.
   the plugin's own route, so they survive a reload and a restart.
 - **Controls** — wallpaper strength (how much wallpaper shows through), dim,
   video softness, animation speed, pause when the window is hidden.
+- **Playlist** — rotate through any subset of the presets every 1–240 minutes,
+  in order or shuffled.
+- **Wallpaper library** — every uploaded file is listed in Settings, so a
+  wallpaper picked last week is one click away; the host lists
+  `$DSH_HOME/dsh-lively-media/` through `/dsh-lively/library`.
 - **Theme aware** — the veil is keyed on `body[data-ds-dark-theme]`; the
-  bright/dark preset variants are keyed on `html[data-dsh-lively-tone]`.
+  bright/dark preset variants are keyed on `html:has(> body[data-ds-dark-theme])`.
 
 ## Install
 
