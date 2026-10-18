@@ -8,14 +8,16 @@ settings page to pick the look.
 
 ## Features
 
-- **Five procedural presets** — Aurora, Starfield, Lava, Mesh, Neon grid. Each
-  has a dark variant for the dark palette and a bright variant for the light
+- **Six procedural presets** — Flow, Aurora, Starfield, Lava, Mesh, Neon grid.
+  Flow is the deliberately animated one (position + size drift); each preset has
+  a dark variant for the dark palette and a bright variant for the light
   palette, so a light theme never ends up with a grey wash.
 - **Custom wallpaper** — image, GIF, WebP, AVIF, MP4 or WebM, by URL or uploaded
   from disk. Uploads live under `$DSH_HOME/dsh-lively-media/` and are served by
   the plugin's own route, so they survive a reload and a restart.
 - **Controls** — wallpaper strength (how much wallpaper shows through), dim,
-  video softness, animation speed, pause when the window is hidden.
+  video softness, animation speed, a motion switch (the reduced-motion escape
+  hatch), pause when the window is hidden.
 - **Playlist** — rotate through any subset of the presets every 1–240 minutes,
   in order or shuffled.
 - **Wallpaper library** — every uploaded file is listed in Settings, so a
