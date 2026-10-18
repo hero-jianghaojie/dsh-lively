@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "Live wallpaper layer for the DeepSeek Harness Web GUI: procedural presets, images, GIF and video behind a translucent shell",
   "license": "MIT",
+  "author": "hero-jianghaojie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hero-jianghaojie/dsh-lively.git"
+  },
+  "homepage": "https://github.com/hero-jianghaojie/dsh-lively#readme",
+  "bugs": {
+    "url": "https://github.com/hero-jianghaojie/dsh-lively/issues"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {

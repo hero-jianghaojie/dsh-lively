@@ -22,7 +22,7 @@ settings page to pick the look.
 ## Install
 
 ```sh
-git clone https://github.com/<you>/dsh-lively.git
+git clone https://github.com/hero-jianghaojie/dsh-lively.git
 dsh plugin --profile desktop add ./dsh-lively
 ```
 
