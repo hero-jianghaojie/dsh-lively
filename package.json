@@ -1,6 +1,6 @@
 {
   "name": "dsh-lively",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Live wallpaper layer for the DeepSeek Harness Web GUI: procedural presets, images, GIF and video behind a translucent shell",
   "license": "MIT",
   "author": "hero-jianghaojie",
