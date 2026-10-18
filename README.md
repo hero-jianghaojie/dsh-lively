@@ -6,6 +6,8 @@ settings page to pick the look.
 
 ![Light theme preview](docs/preview-light.png)
 
+**[▶ Watch the 47-second intro video](https://github.com/hero-jianghaojie/dsh-lively/releases/download/v0.2.1/dsh-lively-intro.mp4)** — narrated tour of the presets, custom wallpapers, playlist and controls (1080p30, Chinese narration).
+
 ## Features
 
 - **Six procedural presets** — Flow, Aurora, Starfield, Lava, Mesh, Neon grid.
