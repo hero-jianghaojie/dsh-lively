@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Live Wallpaper">
+  <defs>
+    <linearGradient id="lively-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1e34"/>
+      <stop offset="0.55" stop-color="#3a2a63"/>
+      <stop offset="1" stop-color="#0f6b6b"/>
+    </linearGradient>
+    <linearGradient id="lively-aurora" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8f7bff" stop-opacity="0.95"/>
+      <stop offset="0.6" stop-color="#3fd2c7" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ff6f9c" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#lively-bg)"/>
+  <path d="M4 40c10-8 18-6 26-2s16 4 30-4v12a14 14 0 0 1-14 14H18A14 14 0 0 1 4 46z" fill="url(#lively-aurora)" opacity="0.55"/>
+  <circle cx="24" cy="24" r="10" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2.4"/>
+  <path d="M22 19.5l7 4.5-7 4.5z" fill="#ffffff"/>
+  <path d="M38 34h12M38 40h8" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

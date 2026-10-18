@@ -1,0 +1,4 @@
+# local test pages and generated screenshots
+.debug/
+node_modules/
+*.log
