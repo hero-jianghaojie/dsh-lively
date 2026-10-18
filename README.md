@@ -38,13 +38,18 @@ Then restart DSH (the sidebar's restart button, if installed) and open
 
 ## How it works
 
-- The wallpaper is the **root element's background** (`html`), i.e. the canvas —
-  the one surface always below every column. Only video needs a real element, so
-  a fixed `z-index:-1` layer exists solely for that case.
+- The wallpaper lives in one fixed layer at `z-index:-1` (`#dsh-lively-layer`)
+  with three children: the animated **surface**, the theme-coloured **veil**
+  (`strength`) and the **dim** overlay. The layer is appended to the root so it
+  sits under every column.
+- Why not the root element's own background? Chromium paints the root background
+  into the canvas background layer; a `background-position`/`background-size`
+  animation on `html` advances the animation clock but does not repaint on
+  screen, so the presets looked static. An ordinary element repaints, and that
+  is what the layer uses.
 - The shell paints `--dsw-alias-bg-base` on the frame *and* on the centre
-  column, and alphas multiply. The token is therefore fully **transparent**, and
-  the single theme-coloured veil is drawn once on the canvas pseudo-elements
-  (`html::before` for the veil, `html::after` for the dim).
+  column, and alphas multiply. The token is therefore fully **transparent**, so
+  the layer shows through with the single veil painted once, above the surface.
 - No `backdrop-filter` on the shell columns: it would make them the containing
   block for fixed-position descendants, and the sidebar's fold toggle is
   `position: fixed` — frosting the column drags that button onto the brand mark.
